@@ -3,6 +3,7 @@ import "./App.css";
 import StreamingImg from "./assets/streaming.png";
 import Drone from "./assets/Drone.jpg";
 import Zombie from "./assets/zombie2.jpg";
+import None from "./assets/None.png";
 
 const projects = [
   {
@@ -13,7 +14,7 @@ const projects = [
     thumbnail:
         Drone,
     technologies: ["Arduino", "C"],
-    link: "https://example.com/taskapp",
+    link: "#",
   },
   {
     id: 2,
@@ -33,17 +34,37 @@ const projects = [
     thumbnail:
       Zombie,
     technologies: ["Unity", "C#", "VR"],
-    link: "https://example.com/socialdashboard",
+    link: "#",
   },
   {
     id: 4,
     title: "C++ 프로젝트",
-    description: "진행중",
-    date:"2023-11 ~ 2024-01",
+    description: "C++ 그래픽 렌더링",
+    date:"진행중",
     thumbnail:
-      "https://images.unsplash.com/photo-1506765515384-028b60a970df?w=800&q=80",
-    technologies: ["React", "Firebase", "Material UI"],
-    link: "https://example.com/socialdashboard",
+    None,
+    technologies: ["C++",],
+    link: "#",
+  },
+  {
+    id: 5,
+    title: "C++ 프로젝트",
+    description: "C++ 메모리 검사",
+    date:"미정",
+    thumbnail:
+    None,
+    technologies: ["C++", ],
+    link: "#",
+  },
+  {
+    id: 6,
+    title: "컴퓨터 비전 AI",
+    description: "영상 처리 AI",
+    date:"미정",
+    thumbnail:
+    None,
+    technologies: ["AI", ],
+    link: "#",
   },
 ];
 
