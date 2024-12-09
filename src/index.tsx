@@ -1,4 +1,4 @@
-
+import { Helmet } from 'react-helmet';
 import "./App.css";
 import StreamingImg from "./assets/streaming.png";
 import Drone from "./assets/Drone.jpg";
@@ -71,6 +71,9 @@ const projects = [
 function App() {
   return (
     <div className="portfolio">
+      <Helmet>
+                <title>protfolio</title>
+      </Helmet>
       <header className="header">
         <h1>프로젝트</h1>
       </header>
