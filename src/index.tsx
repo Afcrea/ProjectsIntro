@@ -3,7 +3,7 @@ import "./App.css";
 import StreamingImg from "./assets/streaming.png";
 import Drone from "./assets/Drone.jpg";
 import Zombie from "./assets/zombie2.jpg";
-import None from "./assets/None.png";
+//import None from "./assets/None.png";
 
 const projects = [
   {
@@ -14,7 +14,7 @@ const projects = [
     thumbnail:
         Drone,
     technologies: ["Arduino", "C"],
-    link: "#",
+    link: "http://211.188.55.250:8050/Drone.html",
   },
   {
     id: 2,
@@ -34,38 +34,38 @@ const projects = [
     thumbnail:
       Zombie,
     technologies: ["Unity", "C#", "VR"],
-    link: "#",
+    link: "http://211.188.55.250:8050/LastStand.html",
   },
-  {
-    id: 4,
-    title: "C++ 프로젝트",
-    description: "C++ 그래픽 렌더링",
-    date:"진행중",
-    thumbnail:
-    None,
-    technologies: ["C++",],
-    link: "#",
-  },
-  {
-    id: 5,
-    title: "C++ 프로젝트",
-    description: "C++ 메모리 검사",
-    date:"미정",
-    thumbnail:
-    None,
-    technologies: ["C++", ],
-    link: "#",
-  },
-  {
-    id: 6,
-    title: "컴퓨터 비전 AI",
-    description: "영상 처리 AI",
-    date:"미정",
-    thumbnail:
-    None,
-    technologies: ["AI", ],
-    link: "#",
-  },
+  // {
+  //   id: 4,
+  //   title: "C++ 프로젝트",
+  //   description: "C++ 그래픽 렌더링",
+  //   date:"진행중",
+  //   thumbnail:
+  //   None,
+  //   technologies: ["C++",],
+  //   link: "#",
+  // },
+  // {
+  //   id: 5,
+  //   title: "C++ 프로젝트",
+  //   description: "C++ 메모리 검사",
+  //   date:"미정",
+  //   thumbnail:
+  //   None,
+  //   technologies: ["C++", ],
+  //   link: "#",
+  // },
+  // {
+  //   id: 6,
+  //   title: "컴퓨터 비전 AI",
+  //   description: "영상 처리 AI",
+  //   date:"미정",
+  //   thumbnail:
+  //   None,
+  //   technologies: ["AI", ],
+  //   link: "#",
+  // },
 ];
 
 function App() {
