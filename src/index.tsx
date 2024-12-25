@@ -66,6 +66,26 @@ const projects = [
   //   technologies: ["AI", ],
   //   link: "#",
   // },
+  // {
+  //   id: 7,
+  //   title: "언리얼 엔진 파쿠르 및 잡기 ( 애니메이션의 자연스러운 합체? )",
+  //   description: "영상 처리 AI",
+  //   date:"미정",
+  //   thumbnail:
+  //   None,
+  //   technologies: ["AI", ],
+  //   link: "#",
+  // },
+  // {
+  //   id: 8,
+  //   title: "C++ 영상 압축 리눅스 서버",
+  //   description: "",
+  //   date:"미정",
+  //   thumbnail:
+  //   None,
+  //   technologies: ["AI", ],
+  //   link: "#",
+  // },
 ];
 
 function App() {
